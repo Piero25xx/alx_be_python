@@ -1,16 +1,16 @@
-number 1 = 10
-number 2 = 5 
+x = 10
+y = 5 
 
-sum = number 1 + number 2 
+sum = x + y 
 
 print ("The addition of number 1 and number 2 is: ", sum) 
 
-sub = number 1 - number 2
+sub = x - y
 
 print ("The subtraction of number 1 and number 2 is: ", sub)
 
 
-multi = number 1 * number 2
+multi = x * y
 
 print ("The Multiplication of number 1 and number 2 is: ", multi)
 
