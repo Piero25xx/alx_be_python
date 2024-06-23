@@ -1,4 +1,4 @@
-salary = int(input('Enter your income '))
+salary = int(input('Enter your monthly income '))
 
 expenses = int(input('Enter your total monthly expenses '))
 
