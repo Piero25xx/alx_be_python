@@ -1,6 +1,6 @@
-Length = 10
+length = 10
 width = 5 
-area = Length * width
+area = length * width
 
 print ("The area of the rectangle is: ", area)
 
