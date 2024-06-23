@@ -1,4 +1,4 @@
-lenght = 10
+Lenght = 10
 width = 5 
 
 area = lenght * width
