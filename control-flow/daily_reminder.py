@@ -15,17 +15,17 @@ reminder = ""
 # Use a match case statement to react differently based on the task's priority
 match priority:
     case "high":
-        reminder = f"Reminder: Finish '{task}' is high periority task'"
+        reminder = f"Reminder: Finish {task} is high priority task'"
     case "medium":
-        reminder = f"Reminder: Your '{task}' task is Medium priority"
+        reminder = f"Reminder: Your {task} task is Medium priority"
     case "low":
-        reminder = f"Reminder: Your '{task}' task is low priority"
+        reminder = f"Reminder: Your {task} task is low priority"
     case _:
-        reminder = f"Task: '{task}' (priority not specified)"
+        reminder = f"Task: {task} (priority not specified)"
 
 # Use an if statement to modify the reminder if the task is time-bound
 if time_bound == "yes":
-    reminder += " that requires immediate attention today!"
+    reminder += "that requires immediate attention today!"
 
 # Provide a customized reminder
 print(reminder)
