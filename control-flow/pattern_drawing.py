@@ -1,7 +1,7 @@
 # pattern_drawing.py
 
 # Ask the user to enter a positive integer
-size = int(input("Enter a positive integer: "))
+size = int(input("Enter the size of the pattern: "))
 
 # Initialize the row counter
 row = 0
