@@ -15,11 +15,11 @@ reminder = ""
 # Use a match case statement to react differently based on the task's priority
 match priority:
     case "high":
-        reminder = f"Reminder: Finish {task} is high priority task'"
+        reminder = f"Reminder: Finish {task} is high priority task"
     case "medium":
         reminder = f"Reminder: Your {task} task is Medium priority"
     case "low":
-        reminder = f"Reminder: Your {task} task is low priority"
+        reminder = f"Reminder: Your {task} task is low priority, you can do it when you are free"
     case _:
         reminder = f"Task: {task} (priority not specified)"
 
