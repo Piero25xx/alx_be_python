@@ -17,9 +17,9 @@ match priority:
     case "high":
         reminder = f"Reminder: Your {task} is high priority task"
     case "medium":
-        reminder = f"Reminder: Your {task} task is Medium priority"
+        reminder = f"Reminder: Your {task} task is a Medium priority task, you can re-organize"
     case "low":
-        reminder = f"Reminder: Your {task} task is low priority"
+        reminder = f"Reminder: Your {task} task is low priority, it is okay to have a break"
 
 # Use an if statement to modify the reminder if the task is time-bound
 if time_bound == "yes":
